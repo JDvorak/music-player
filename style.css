@@ -1,0 +1,55 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.app {
+	margin: 40px
+
+}
+
+.visualization {
+	float: left;
+	clear: both;
+	width: 900px;
+	height: 900px;
+}
+
+.transparency {
+	background: #ccc;
+	border-radius: 1% 1%;
+	opacity: .8;
+}
+
+
+.library {
+	position: absolute;
+	width: 400px;
+}
+.playlist {
+	position: absolute;
+	left: 500px;
+	width: 400px;
+}
+
+
+.library tr:not(:first-child):hover {
+	background: lightblue;
+}
+
+.library tr:not(:first-child):active {
+	background: lightgreen;
+}
+
+.playlist tr:not(:first-child):hover {
+	background: red;
+}
+
+
+audio {
+	width: 400px;
+	opacity: .6;
+}
+
